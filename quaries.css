@@ -1,0 +1,197 @@
+:root {
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Nunito", sans-serif;
+  --nav-font: "Poppins", sans-serif;
+  --default-color: #444444;
+  --heading-color: #012970;
+  --accent-color: #4154f1;
+}
+
+@media (max-width: 1300px) {
+  .padd-10 {
+    padding: 2rem 5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .padd-10 {
+    padding: 2rem 10rem;
+  }
+
+  .navToggle {
+    display: flex;
+
+    align-items: center;
+    font-size: 4rem;
+  }
+
+  .naclose {
+    display: none;
+  }
+
+  .nav .navList {
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .nav .navListDark {
+    display: none;
+  }
+
+  .sticky .navListDark {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sticky .navList {
+    width: 90%;
+    height: 85%;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 2rem;
+  }
+
+  .sticky .navLInk {
+    color: black;
+    width: 100%;
+    font-size: 2rem;
+    font-family: var(--heading-font);
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .sticky .naclose {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    z-index: 99;
+  }
+
+  .sticky .naopen {
+    display: none;
+  }
+
+  .listDrop{
+   padding: 0rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .padd-10 {
+    padding: 2rem;
+  }
+}
+@media (max-width: 900px) {
+  .padd-10 {
+    padding: 2rem 10rem;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+  }
+
+  .hero-text {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .abt-image {
+    width: 100%;
+  }
+
+  .value-box,
+  .value-rating,
+  .servicesBox,
+  .prList,
+  .ptActiveTab,
+  .team-profile-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature-one,
+  .feature-two,
+  .faqs,
+  .contactBox {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .ft-image {
+    grid-row: 1;
+  }
+
+  .clientBox {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 3rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .padd-10 {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .value-box,
+  .value-rating,
+  .servicesBox,
+  .prList,
+  .ptActiveTab,
+  .team-profile-box,
+  .contactLocation,
+  .ftbox {
+    grid-template-columns: 1fr;
+  }
+
+  .ctNE{
+   flex-direction: column;
+   gap: 0;
+  }
+  .nav .navBtn{
+   display: none;
+  }
+
+  .sticky .navBtn{
+   display: block;
+   position: fixed;
+   top: 1rem;
+   left: 1rem;
+   z-index: 99;
+  }
+
+  .sticky .navList{
+   height: 80%;
+  }
+}
+
+@media (max-width: 400px){
+   .ft-text-box{
+      grid-template-columns: 1fr;
+   }
+}
