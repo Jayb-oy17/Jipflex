@@ -26,7 +26,7 @@ navObserver.observe(navChange);
 const nav = document.querySelector(".nav");
 const btnNav = document.querySelector(".navToggle");
 
-btnNav.addEventListener("click", function (e) {
+btnNav.addEventListener("click", function () {
   nav.classList.toggle("sticky");
 });
 
