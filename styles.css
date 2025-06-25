@@ -29,7 +29,7 @@ body {
 
 /* ---------------GENERAL ----------------- */
 .padd-10 {
-  padding: 2rem 10rem;
+  padding: 1rem 10rem;
 }
 
 .mar-5 {
@@ -64,6 +64,7 @@ body {
   margin-bottom: 1rem;
   cursor: pointer;
   text-align: center;
+  line-height: 35px;
 }
 
 /* ---------full screen image viewer */
@@ -170,6 +171,7 @@ body {
   font-size: 35px;
   color: var(--heading-color);
   font-family: var(--heading-font);
+  line-height: 35px;
 }
 
 .navBox {
@@ -184,7 +186,7 @@ body {
 }
 
 .navLInk {
-  font-size: 16px;
+  font-size: 18px;
   color: var(--heading-color);
   transition: all 0.3s;
   font-family: var(--nav-font);
@@ -193,6 +195,10 @@ body {
 }
 
 .navLInk:hover {
+  color: var(--accent-color);
+}
+
+.navLInk.active {
   color: var(--accent-color);
 }
 
@@ -385,8 +391,8 @@ body {
 .hero-title {
   font-size: 50px;
   color: var(--heading-color);
-  margin-bottom: 1rem;
   font-family: var(--heading-font);
+  line-height: 55px;
 }
 
 .hero-article {
@@ -486,6 +492,7 @@ body {
   font-family: var(--heading-font);
   font-weight: 700;
   margin-bottom: 1rem;
+  line-height: 20px;
 }
 
 .abt-title {
@@ -493,6 +500,7 @@ body {
   color: var(--heading-color);
   font-family: var(--heading-font);
   margin-bottom: 1rem;
+  line-height: 30px;
 }
 
 .abt-article {
@@ -561,6 +569,7 @@ body {
   color: var(--heading-color);
   font-family: var(--heading-font);
   margin-bottom: 2rem;
+  line-height: 30px;
 }
 
 .value-article {
@@ -656,6 +665,7 @@ body {
   font-size: 18px;
   font-family: var(--heading-font);
   color: var(--heading-color);
+  line-height: 20px;
 }
 
 .feature-two {
@@ -687,6 +697,7 @@ body {
   color: var(--heading-color);
   font-family: var(--heading-font);
   margin-bottom: 1rem;
+  line-height: 2.2rem;
 }
 
 .ftarticle {
@@ -803,6 +814,7 @@ body {
   font-family: var(--heading-font);
   color: var(--heading-color);
   margin-bottom: 2rem;
+  line-height: 2.2rem;
 }
 
 .srText {
@@ -876,6 +888,7 @@ body {
   font-size: 2rem;
   font-family: var(--heading-font);
   margin-bottom: 15px;
+  line-height: 2.2rem;
 }
 
 .pr {
@@ -1006,6 +1019,7 @@ body {
   justify-content: space-between;
   align-items: center;
   transition: all 0.5s;
+  line-height: 20px;
 }
 
 .faqTitle ion-icon {
@@ -1041,6 +1055,7 @@ body {
 .ptTab {
   font-size: 15px;
   font-family: var(--heading-font);
+  line-height: 20px;
   cursor: pointer;
 }
 
@@ -1159,6 +1174,7 @@ body {
   color: var(--heading-color);
   font-size: 18px;
   font-family: var(--heading-font);
+  line-height: 20px;
   margin-bottom: 5px;
 }
 
@@ -1243,6 +1259,7 @@ body {
 .ctTitle {
   font-size: 2rem;
   font-family: var(--heading-font);
+  line-height: 2.2rem;
   color: var(--heading-color);
   margin-bottom: 1rem;
 }
@@ -1298,22 +1315,22 @@ body {
 /* -------------CONTACT------------------------ */
 /* -------------COPYRIGHT------------------------- */
 
-.Copyright{
+.Copyright {
   font-size: 15px;
   text-align: center;
   line-height: 3rem;
   background-color: #f8f8f8;
 }
 
-.crMain{
+.crMain {
   font-weight: 500;
 }
 
-.crOwner{
+.crOwner {
   color: var(--accent-color);
 }
 
-.crCloner{
+.crCloner {
   color: var(--accent-color);
 }
 
